@@ -5,7 +5,7 @@
 .head{ background:#FFF}
 .head .top{ height:33px; line-height:33px;}
 .head .top a{ padding:0 10px;}
-.head .logo{ height:260px;}
+.head .logo{ height:360px;}
 
 .head .navBar{position:relative; z-index:1;  background:url(../images/nav-bg.jpg) repeat-x; color:#fff; line-height:38px;   }
 .head .navBar .nav{ overflow:hidden; zoom:1; }
