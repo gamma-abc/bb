@@ -5,8 +5,12 @@
 .head{ background:#FFF}
 .head .top{ height:33px; line-height:33px;}
 .head .top a{ padding:0 10px;}
-.head .logo{ height:360px;}
-
+ /*.logo{ height:500px;width: 1000px;*/
+	/*margin: 0 auto;}*/
+/*.logo{*/
+	/*height: 500px;*/
+    /*width: 1000px;}*/
+/*.logo p{text-align: center}*/
 .head .navBar{position:relative; z-index:1;  background:url(../images/nav-bg.jpg) repeat-x; color:#fff; line-height:38px;   }
 .head .navBar .nav{ overflow:hidden; zoom:1; }
 .head .navBar .nav .m{ float:left;  padding:0 20px; display:inline;  }

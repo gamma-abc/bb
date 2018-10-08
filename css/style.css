@@ -1,0 +1,46 @@
+/*body {*/
+  /*background: #000;*/
+/*}*/
+
+.container {
+  margin: 1px auto;
+  width: 1000px;
+  height: 360px;
+  overflow: hidden;
+  /*border: 1px solid;*/
+  /*border-top-color: white;*/
+  /*border-left-color: #5d4426;*/
+  /*border-bottom-color: white;*/
+  /*border-right-color: #5d4426;*/
+  position: relative;
+}
+
+.photo {
+  position: absolute;
+  animation: round 16s infinite;
+  opacity: 0;
+}
+
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+img:nth-child(1) {
+  animation-delay: 12s;
+}
+
+img:nth-child(2) {
+  animation-delay: 8s;
+}
+
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+
+img:nth-child(4) {
+  animation-delay: 0s;
+}
